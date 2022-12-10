@@ -1,0 +1,90 @@
+
+body{
+    background-color: rgb(23, 40, 69);
+    text-align: center;
+}
+    #myform{
+    background-color: rgba(84, 107, 121, 0.1);
+    border: 2px double rgb(103, 107, 107);
+    border-width: 15px;
+    padding: 40px 30px;
+    width: 400px;
+    height: auto;
+    box-shadow: 0px 0px 300px 1px rgb(93, 91, 91);
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+input{
+    padding: 20px;
+    margin-top: 20px;
+    color: white; 
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(45, 60, 105);
+    border-bottom-right-radius: 10px;
+    width: 60%;
+}
+#head{
+    color: rgb(176, 172, 175);
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: x-large;
+}
+table{
+
+    border: 2px solid rgb(95, 92, 92);
+    border-radius: 10px;
+    background-color: rgb(45, 51, 91);
+    padding: 20px;
+    border-collapse: collapse;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    color: rgb(217, 217, 227);
+    float: right;
+    margin-top: -550px;
+    margin-right: 90px;
+}
+
+th,td{
+    border: 1px solid rgb(106, 102, 102);
+    padding: 8px;
+}
+
+#sub{
+    background-color: greenyellow;
+    border: solid greenyellow;
+    color: rgb(37, 32, 32);
+    padding: 20px;
+    width: 30%;
+    border-radius: 30px;
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+ #sub:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+ }
+ button{
+    border:1px solid greenyellow ;
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 10px;
+    margin-inline: 10px;
+ }
+ button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+ }
+ img{
+    margin-left: -350px;
+ }
+
+
+ 
+ 

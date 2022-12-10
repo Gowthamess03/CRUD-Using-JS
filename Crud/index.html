@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form id="myform" onsubmit="event.preventDefault();onFormSubmit();">
+        <img src="/Image/js.ico" alt="" width="60px" height="60px">
+        <h3 id="head">REGISTRATION</h3> <br>
+        <input type="text" required placeholder="Name" id="name">
+        <br> <br>
+
+        <input type="number" required placeholder="Age" id="age">
+        <br> <br>
+
+        <input type="text" required placeholder="Phone Number" id="phno">
+        <br> <br> <br>
+        <!-- <div class="form-action-buttons"> -->
+        <button id="sub">Submit</button>
+        </div>
+    </form>
+    <table id="List">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Phone Number</th>
+                <th>To Modify</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    
+    <script src="script.js"> </script>
+</body>
+
+</html>
